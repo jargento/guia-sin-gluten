@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mendoza Sin TACC | Guía de Lugares Seguros</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    
+    <link href="static/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/" style="color: #DE9417;">
+                <i class="bi bi-geo-alt-fill"></i> MENDOZA SIN TACC
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link px-3" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link px-3" href="#locales">Locales</a></li>
+                    <li class="nav-item ms-lg-2">
+                        <a class="btn btn-guia px-4" href="#">Sumar mi local</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div id="promoSlider" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+        
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#promoSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#promoSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#promoSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=2072" class="d-block w-100 banner-img" alt="Panadería El Trigal">
+                <div class="carousel-caption d-none d-md-block banner-text">
+                    <h2 class="fw-bold">Panadería El Trigal</h2>
+                    <p class="lead">Productos 100% artesanales y libres de gluten.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1926" class="d-block w-100 banner-img" alt="Restaurante Brotes">
+                <div class="carousel-caption d-none d-md-block banner-text">
+                    <h2 class="fw-bold">Restaurante Brotes</h2>
+                    <p class="lead">Almuerzos seguros en el corazón de la Ciudad.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?q=80&w=1932" class="d-block w-100 banner-img" alt="Maipú Sin TACC">
+                <div class="carousel-caption d-none d-md-block banner-text">
+                    <h2 class="fw-bold">Maipú Sin TACC</h2>
+                    <p class="lead">Encontrá las mejores opciones en la zona este.</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#promoSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#promoSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </button>
+    </div>
+
+    <section id="locales" class="py-5 bg-light border-bottom">
+        <div class="container text-center">
+            <h1 class="fw-bold mt-5 mb-4">Comer <span style="color: #DE9417;">Sin TACC</span> en Mendoza</h1>
+        <div class="d-flex flex-wrap justify-content-center gap-2" id="portfolio-filters">
+            <div data-filter="*" class="btn btn-filtro active">Todos</div>
+            <div data-filter=".filter-ciudad" class="btn btn-filtro">Ciudad</div>
+            <div data-filter=".filter-godoycruz" class="btn btn-filtro">Godoy Cruz</div>
+            <div data-filter=".filter-guaymallen" class="btn btn-filtro">Guaymallén</div>
+            <div data-filter=".filter-lujan" class="btn btn-filtro">Luján de Cuyo</div>
+            <div data-filter=".filter-maipu" class="btn btn-filtro">Maipú</div>
+        </div>
+        </div>
+    </section>
+
+    <main class="container my-5">
+    <div class="row isotope-container">
+        
+        <div class="col-12 col-sm-6 col-md-3 mb-4 portfolio-item filter-godoycruz">
+            <div class="card h-100 border-0 shadow-sm card-perfil pt-4">
+                        <div class="ribbon-wrapper">
+                            <div class="ribbon-recomendado">
+                                Recomendado
+                            </div>
+                        </div>                        
+                <img src="https://www.oliveglutenfree.com.ar/nv/img/logo-empresa-header.png" class="logo-circular shadow-sm" alt="Logo">
+                <div class="card-body text-center">
+                    <h5 class="fw-bold mb-1">Olive</h5>
+                    <p class="text-muted small">Planta Uno</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="icon-social bg-instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="icon-social bg-whatsapp"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-3 mb-4 portfolio-item filter-ciudad">
+            <div class="card h-100 border-0 shadow-sm card-perfil pt-4">
+                <img src="https://www.argentina.gob.ar/sites/default/files/sin_gluten_legal-01.png" class="logo-circular shadow-sm" alt="Logo">
+                <div class="card-body text-center">
+                    <h5 class="fw-bold mb-1">Celidiet</h5>
+                    <p class="text-muted small">Paseo Moreno</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="icon-social bg-instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="icon-social bg-whatsapp"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-3 mb-4 portfolio-item filter-ciudad">
+            <div class="card h-100 border-0 shadow-sm card-perfil pt-4">
+                <img src="https://www.argentina.gob.ar/sites/default/files/sin_gluten_legal-01.png" class="logo-circular shadow-sm" alt="Logo">
+                <div class="card-body text-center">
+                    <h5 class="fw-bold mb-1">Enebro</h5>
+                    <p class="text-muted small">Ciudad de Mendoza</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="icon-social bg-instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="icon-social bg-whatsapp"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-3 mb-4 portfolio-item filter-lujan">
+            <div class="card h-100 border-0 shadow-sm card-perfil pt-4">
+                <img src="https://www.argentina.gob.ar/sites/default/files/sin_gluten_legal-01.png" class="logo-circular shadow-sm" alt="Logo">
+                <div class="card-body text-center">
+                    <h5 class="fw-bold mb-1">Monna Pizzas</h5>
+                    <p class="text-muted small">Calle Saez Peña 13, Luján de Cuyo</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="icon-social bg-instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="icon-social bg-whatsapp"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-3 mb-4 portfolio-item filter-guaymallen">
+            <div class="card h-100 border-0 shadow-sm card-perfil pt-4">
+                <img src="https://www.argentina.gob.ar/sites/default/files/sin_gluten_legal-01.png" class="logo-circular shadow-sm" alt="Logo">
+                <div class="card-body text-center">
+                    <h5 class="fw-bold mb-1">Bie Bie Gluten</h5>
+                    <p class="text-muted small">Barrio Unimev</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="icon-social bg-instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="icon-social bg-whatsapp"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-3 mb-4 portfolio-item filter-lujan">
+            <div class="card h-100 border-0 shadow-sm card-perfil pt-4">
+                <img src="https://www.argentina.gob.ar/sites/default/files/sin_gluten_legal-01.png" class="logo-circular shadow-sm" alt="Logo">
+                <div class="card-body text-center">
+                    <h5 class="fw-bold mb-1">Bodega Sin TACC</h5>
+                    <p class="text-muted small">Luján de Cuyo</p>
+                    <div class="social-links mt-3">
+                        <a href="#" class="icon-social bg-instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="icon-social bg-whatsapp"><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+    <footer class="footer-guia mt-5">
+    <div class="container">
+        <div class="row gy-4">
+            
+            <div class="col-lg-4 col-md-12">
+                <h5>MENDOZA SIN TACC</h5>
+                <p>La guía definitiva para la comunidad celíaca de Mendoza. Encontrá lugares seguros y certificados en toda la provincia.</p>
+                <div class="social-links mt-3">
+                    <a href="#" class="icon-social bg-web me-2"><i class="bi bi-globe"></i></a>
+                    <a href="https://instagram.com/melocotonweb" class="icon-social bg-instagram me-2"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="icon-social bg-whatsapp"><i class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-6">
+                <h5>Navegación</h5>
+                <ul class="list-unstyled">
+                    <li><a href="/" class="text-white-50 text-decoration-none">Home</a></li>
+                    <li><a href="#locales" class="text-white-50 text-decoration-none">Locales</a></li>
+                    <li><a href="#" class="text-white-50 text-decoration-none">Sumar mi local</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+                <h5>Suscribite a nuestro Newsletter</h5>
+                <p>Recibí promociones exclusivas y nuevos lugares recomendados en tu mail.</p>
+                <form class="newsletter-form d-flex mt-3">
+                    <input type="email" class="form-control" placeholder="Tu correo electrónico" required>
+                    <button type="submit" class="btn">Suscribirme</button>
+                </form>
+            </div>
+
+        </div>
+
+        <hr class="mt-5 mb-4 border-secondary">
+
+        <div class="text-center">
+            <p class="mb-0 small">© 2026 Mendoza Sin TACC - Made with ❤️ by <strong> <a href="/"></a>Melocotón Web</strong></p>
+        </div>
+    </div>
+</footer>
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center active"><i class="bi bi-arrow-up-short fs-2"></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Inicializamos Isotope
+    var iso = new Isotope('.isotope-container', {
+      itemSelector: '.portfolio-item',
+      layoutMode: 'fitRows'
+    });
+
+    // Manejo de clics en los filtros
+    var filtersElem = document.querySelector('#portfolio-filters');
+    filtersElem.addEventListener('click', function(event) {
+      if (!event.target.classList.contains('btn-filtro')) return;
+
+      var filterValue = event.target.getAttribute('data-filter');
+      iso.arrange({ filter: filterValue });
+
+      // Cambiamos la clase activa de los botones
+      var buttons = filtersElem.querySelectorAll('.btn-filtro');
+      buttons.forEach(btn => btn.classList.remove('active'));
+      event.target.classList.add('active');
+    });
+    window.addEventListener('scroll', () => {
+    const backToTop = document.querySelector('.back-to-top');
+    if (window.scrollY > 100) {
+        backToTop.classList.add('active');
+    } else {
+        backToTop.classList.remove('active');
+    }
+});
+  });
+</script>
+</body>
+</html>
